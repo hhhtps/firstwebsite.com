@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web site</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <style>
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .header nav{
+            position: sticky;
+            top: 0px;
+        }
+body{font-family: 'Baloo Bhai 2', cursive;
+}
+        .img {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .container {display: flex;
+            /* border: 2px solid red; */
+            height: 50px;
+            align-items: center;
+            padding: 0px 25px ;
+            font-size: 20px;
+
+        }
+        .container a:hover, .container a:active {
+            color: rgb(218, 216, 216);
+            text-decoration: underline;
+        }
+
+
+        .left {
+            /* border: thistle 2px solid; */
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            left: 7px;
+            
+
+        }
+        .left img{
+            height:50px;
+            width: 50px;
+            margin: 0px 50px ;
+            filter: invert(100%);
+            border-radius: 10px;
+        }
+
+        .right {
+            position: absolute;
+            top: 7px;
+            right: 25px;
+            display: inline-block;
+        }
+        .btn{
+            padding: 10px;
+            background-image: none;
+            background-color:rgb(198, 229, 248) ;
+            border-radius: 7px;
+        }
+        .btn:hover{color: rgb(218, 216, 216);
+            text-decoration: underline;
+            background-color:black;
+
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 0px auto;
+            /* border: 2px green solid; */
+            padding: 25px;
+
+        }
+        .mid a{
+            padding: 25px;
+            text-decoration: none;
+            color: black;
+           
+            
+        }
+        .form{
+           position: absolute;
+           top: 300px;
+           left: 200px ;
+           background-color:rgb(228, 228, 228) ;
+           height: 65vh;
+           width: 50vw;
+           border-radius: 20px;
+           text-align: center;
+          
+        }
+        .input{
+           margin: 8px;
+        }
+        .fill{
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px ;
+        }
+        .fill:hover{
+            background-color:rgb(206, 228, 241) ;
+            color:black;
+        }
+        .sb{ padding: 20px;
+            width: 300px;
+            border-radius: 10px ;
+
+        }
+        .sb:hover{
+            color: rgb(129, 200, 241);
+        }
+.left:hover {
+    filter: invert(100%);
+}
+
+       
+    </style>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="left"><img src="logo.jpg" alt="">
+
+
+
+                </div>
+                <div class="mid"><a href="" class="active">Home</a>
+                    <a href="https://www.instagram.com/krrrish_/">contact us</a>
+                    <a href="https://www.instagram.com/krrrish_/">designer</a>
+                    <a href="https://www.instagram.com/krrrish_/">about us </a>
+
+                </div>
+                <div class="right"><button class="btn">
+                    sign up
+                </button>
+                <button class="btn">
+                    login
+                </button>
+
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+            <div class="image"><img src="image.jpg" alt="reload" class="img"></div>
+
+   
+    <hr>
+    <div class="form">
+        <h1>send us some feedback about the website designe</h1>
+        <div class="input">
+            <input type="text" placeholder="type your name " class="fill">
+           
+           
+        
+        </div>
+        <div class="input">   <input type="text" placeholder="type your e-mail"class="fill">
+
+        </div>
+        <div class="input"> <input type="text"placeholder="password"class="fill">
+
+        </div>
+        <div class="input"> <input type="text" placeholder="feedback"class="fill">
+           
+
+        </div>
+       <div class="submit"><a href="form.html"class="sb">submit</a></div>
+    </div>
+
+</body>
+
+</html>
